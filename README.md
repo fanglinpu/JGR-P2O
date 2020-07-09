@@ -21,8 +21,8 @@ Figure 1: Overview of JGR-P2O.
 
 3. training and testing:
     * Here we provide an example for NYU training and testing, running on ICVL and MSRA is the same way.
-    * training: python main_nyu --phase train --data_root /home/data/3D_hand_pose_estimation/NYU/dataset/
-    * testing: python main_nyu --phase test --data_root /home/data/3D_hand_pose_estimation/NYU/dataset/
+    * training: python main_nyu.py --phase train --data_root /home/data/3D_hand_pose_estimation/NYU/dataset/
+    * testing: python main_nyu.py --phase test --data_root /home/data/3D_hand_pose_estimation/NYU/dataset/
 
 4. Models:
     * The pretrained models on NYU and ICVL are included in the "[checkpoint]()" directory of this repository.
